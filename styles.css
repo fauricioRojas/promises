@@ -4,4 +4,10 @@
 
 .btn:hover {
 	transform: scale(1.2);
+	color: black;
+}
+
+h1 {
+	text-transform: uppercase;
+	letter-spacing: 5px;
 }
