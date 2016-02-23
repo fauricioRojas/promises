@@ -1,13 +1,18 @@
 .btn {
-	transition: 0.3s;
+    font-weight: 600;
+    transition: 0.3s;
 }
 
+.btn {
+    border: 2px solid #337ab7;
+    background-color: transparent;
+    color: black;
+}
 .btn:hover {
-	transform: scale(1.2);
-	color: black;
+	transform: scale(1.1);
+    color: white;
+    background-color: #337ab7;
+    border: 2px solid #337ab7;
+    letter-spacing: 2px;
 }
 
-h1 {
-	text-transform: uppercase;
-	letter-spacing: 5px;
-}
